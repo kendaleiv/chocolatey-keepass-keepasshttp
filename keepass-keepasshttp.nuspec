@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>keepass-keepasshttp</id>
+    <title>KeePassHttp</title>
+    <version>1.8.3.0</version>
+    <authors>pfn</authors>
+    <owners>kendaleiv</owners>
+    <summary>KeePass plugin to expose password entries securely (256bit AES/CBC) over HTTP</summary>
+    <description>KeePassHttp is a plugin for KeePass 2.x and provides a secure means of exposing KeePass entries via HTTP for clients to consume. This plugin is primarily intended for use with PassIFox for Mozilla Firefox and chromeIPass for Google Chrome.</description>
+    <projectUrl>https://github.com/pfn/keepasshttp</projectUrl>
+    <tags>keepass keepasshttp admin</tags>
+    <copyright>pfn</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <dependencies>
+      <dependency id="keepass.install" version="[2.0,3.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
