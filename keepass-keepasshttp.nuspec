@@ -4,7 +4,7 @@
   <metadata>
     <id>keepass-keepasshttp</id>
     <title>KeePassHttp</title>
-    <version>1.8.3.0</version>
+    <version>1.8.4.0</version>
     <authors>pfn</authors>
     <owners>kendaleiv</owners>
     <summary>KeePass plugin to expose password entries securely (256bit AES/CBC) over HTTP</summary>
