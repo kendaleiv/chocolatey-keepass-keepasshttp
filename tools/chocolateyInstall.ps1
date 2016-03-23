@@ -1,5 +1,5 @@
 ﻿$packageName = "keepass-keepasshttp"
-$url = "https://raw.github.com/pfn/keepasshttp/master/KeePassHttp.plgx"
+$url = "https://github.com/pfn/keepasshttp/raw/9cb207fec395ecc53881cd1dab98cb61d9315280/KeePassHttp.plgx"
 
 $is64bit = Get-ProcessorBits 64
 $programUninstallEntryName = "KeePass Password Safe 2."
