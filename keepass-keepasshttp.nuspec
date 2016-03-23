@@ -10,6 +10,7 @@
     <summary>KeePass plugin to expose password entries securely (256bit AES/CBC) over HTTP</summary>
     <description>KeePassHttp is a plugin for KeePass 2.x and provides a secure means of exposing KeePass entries via HTTP for clients to consume. This plugin is primarily intended for use with PassIFox for Mozilla Firefox and chromeIPass for Google Chrome.</description>
     <projectUrl>https://github.com/pfn/keepasshttp</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/pfn/keepasshttp/master/logo.png</iconUrl>
     <tags>keepass keepasshttp admin</tags>
     <copyright>pfn</copyright>
     <licenseUrl>https://github.com/pfn/keepasshttp/blob/9cb207fec395ecc53881cd1dab98cb61d9315280/LICENSE</licenseUrl>
