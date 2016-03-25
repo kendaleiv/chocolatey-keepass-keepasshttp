@@ -12,7 +12,7 @@
     <projectUrl>https://github.com/pfn/keepasshttp</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/pfn/keepasshttp/master/logo.png</iconUrl>
     <tags>keepass keepasshttp admin</tags>
-    <copyright>pfn</copyright>
+    <copyright>© pfn</copyright>
     <licenseUrl>https://github.com/pfn/keepasshttp/blob/9cb207fec395ecc53881cd1dab98cb61d9315280/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <dependencies>
