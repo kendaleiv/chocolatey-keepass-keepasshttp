@@ -1,5 +1,7 @@
 ﻿$packageName = "keepass-keepasshttp"
-$url = "https://github.com/pfn/keepasshttp/raw/9cb207fec395ecc53881cd1dab98cb61d9315280/KeePassHttp.plgx"
+$url = "https://github.com/pfn/keepasshttp/raw/c2c4eb5388a02169400cba7a67be325caabdcc37/KeePassHttp.plgx"
+$checksum = "4FD87213F4E71F11F0CD7A09B9F49BDA79BCA64AB3F6BF739C945D051FD175E9"
+$checksumType = "sha256"
 
 $is64bit = Get-ProcessorBits 64
 $programUninstallEntryName = "KeePass Password Safe 2."
@@ -18,10 +20,4 @@ if (!$installPath) {
 
 $fileFullPath = $installPath + "KeePassHttp.plgx"
 
-try {
-  Get-ChocolateyWebFile $packageName $fileFullPath $url
-  Write-ChocolateySuccess $packageName
-} catch {
-  Write-ChocolateyFailure $packageName $($_.Exception.Message)
-  throw
-}
+Get-ChocolateyWebFile $packageName $fileFullPath $url -Checksum $checksum -ChecksumType $checksumType
