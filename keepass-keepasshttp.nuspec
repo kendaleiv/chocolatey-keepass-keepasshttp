@@ -4,7 +4,7 @@
   <metadata>
     <id>keepass-keepasshttp</id>
     <title>KeePassHttp</title>
-    <version>1.8.4.1</version>
+    <version>1.8.4.2</version>
     <authors>pfn</authors>
     <owners>kendaleiv</owners>
     <summary>KeePass plugin to expose password entries securely (256bit AES/CBC) over HTTP</summary>
@@ -13,10 +13,10 @@
     <iconUrl>https://raw.githubusercontent.com/pfn/keepasshttp/master/logo.png</iconUrl>
     <tags>keepass keepasshttp admin</tags>
     <copyright>© pfn</copyright>
-    <licenseUrl>https://github.com/pfn/keepasshttp/blob/9cb207fec395ecc53881cd1dab98cb61d9315280/LICENSE</licenseUrl>
+    <licenseUrl>https://github.com/pfn/keepasshttp/blob/c2c4eb5388a02169400cba7a67be325caabdcc37/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <dependencies>
-      <dependency id="keepass.install" version="[2.0,3.0)" />
+      <dependency id="keepass" version="[2.0,3.0)" />
     </dependencies>
   </metadata>
   <files>
