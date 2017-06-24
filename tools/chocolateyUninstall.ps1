@@ -15,6 +15,6 @@ if (!$installPath) {
   throw
 }
 
-$fileFullPath = $installPath + "KeePassHttp.plgx"
+$fileFullPath = "$installPath\Plugins\KeePassHttp.plgx"
 
 Remove-Item $fileFullPath
