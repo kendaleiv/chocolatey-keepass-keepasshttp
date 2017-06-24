@@ -4,7 +4,8 @@
   <metadata>
     <id>keepass-keepasshttp</id>
     <title>KeePassHttp</title>
-    <version>1.8.4.2</version>
+    <version>1.8.4.220170623</version>
+    <packageSourceUrl>https://github.com/kendaleiv/chocolatey-keepass-keepasshttp</packageSourceUrl>    
     <authors>pfn</authors>
     <owners>kendaleiv</owners>
     <summary>KeePass plugin to expose password entries securely (256bit AES/CBC) over HTTP</summary>
@@ -15,6 +16,8 @@
     <copyright>© pfn</copyright>
     <licenseUrl>https://github.com/pfn/keepasshttp/blob/c2c4eb5388a02169400cba7a67be325caabdcc37/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://github.com/pfn/keepasshttp/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/pfn/keepasshttp/issues<bugTrackerUrl>
     <dependencies>
       <dependency id="keepass" version="[2.0,3.0)" />
     </dependencies>
