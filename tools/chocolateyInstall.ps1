@@ -18,6 +18,6 @@ if (!$installPath) {
   throw
 }
 
-$fileFullPath = $installPath + "KeePassHttp.plgx"
+$fileFullPath = "$installPath\Plugins\KeePassHttp.plgx"
 
 Get-ChocolateyWebFile $packageName $fileFullPath $url -Checksum $checksum -ChecksumType $checksumType
