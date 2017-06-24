@@ -14,8 +14,7 @@ else {
 }
 
 if (!$installPath) {
-  Write-ChocolateyFailure $packageName "Could not locate KeePass Password Safe 2.x installation location."
-  throw
+  throw "Could not locate KeePass Password Safe 2.x installation location."
 }
 
 $fileFullPath = "$installPath\Plugins\KeePassHttp.plgx"

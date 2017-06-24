@@ -11,8 +11,7 @@ else {
 }
 
 if (!$installPath) {
-  Write-ChocolateyFailure $packageName "Could not locate KeePass Password Safe 2.x installation location. The plugin may still exist on disk."
-  throw
+  throw "Could not locate KeePass Password Safe 2.x installation location. The plugin may still exist on disk."
 }
 
 $fileFullPath = "$installPath\Plugins\KeePassHttp.plgx"
