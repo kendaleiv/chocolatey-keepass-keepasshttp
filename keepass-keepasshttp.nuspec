@@ -4,7 +4,7 @@
   <metadata>
     <id>keepass-keepasshttp</id>
     <title>KeePassHttp</title>
-    <version>1.8.4.220170623</version>
+    <version>1.8.4.220170629</version>
     <packageSourceUrl>https://github.com/kendaleiv/chocolatey-keepass-keepasshttp</packageSourceUrl>    
     <authors>pfn</authors>
     <owners>kendaleiv</owners>

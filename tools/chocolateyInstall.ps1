@@ -17,6 +17,11 @@ if (!$installPath) {
   throw "Could not locate KeePass Password Safe 2.x installation location."
 }
 
+# Cleanup plugin if exists at previous location
+if (Test-Path "$installPath\KeePassHttp.plgx") {
+  Remove-Item "$installPath\KeePassHttp.plgx"
+}
+
 $fileFullPath = "$installPath\Plugins\KeePassHttp.plgx"
 
 Get-ChocolateyWebFile $packageName $fileFullPath $url -Checksum $checksum -ChecksumType $checksumType
