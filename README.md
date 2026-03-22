@@ -1,4 +1,4 @@
-> **⚠️ DEPRECATED:** This repository is no longer maintained. Please use [choco-keepasshttp](https://github.com/alan-null/choco-keepasshttp) instead.
+> **⚠️ DEPRECATED:** This repository is no longer maintained. Please use [https://github.com/alan-null/choco-keepasshttp](https://github.com/alan-null/choco-keepasshttp) instead.
 
 ## Chocolatey Package: keepass-keepasshttp
 This is a [Chocolatey](https://chocolatey.org/) package to install [https://github.com/pfn/keepasshttp](https://github.com/pfn/keepasshttp).
